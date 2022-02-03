@@ -52,6 +52,10 @@
     cursor: pointer;
 }
 
+.nav-button:active{
+    font-size: 21px;
+}
+
 body{
     margin: 0px;
 }
@@ -61,6 +65,7 @@ body{
     justify-content: center;
     margin-top: 70px;
     gap: 15px;
+    flex-shrink: 2;
 }
 
 #hbox{
@@ -108,7 +113,7 @@ body{
 }
 
 #sign-up:active{
-    box-shadow: 0 5px #151c25;
+    box-shadow: -3px -5px #151c25;
     transform: translateY(2px);
 }
 
