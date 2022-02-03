@@ -121,3 +121,36 @@ body{
     width: 500px;
     height: auto;
 }
+
+#sec-2{
+    display: flex;
+    height: 450px;
+    flex-direction: column;
+}
+
+#s2-disp-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.s2-disp{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.s2-flavor{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.lightning-img{
+    height: 200px;
+    width: 200px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 18px;
+}
