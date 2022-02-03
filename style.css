@@ -126,24 +126,40 @@ body{
     display: flex;
     height: 450px;
     flex-direction: column;
+    margin-bottom: 35px;
 }
 
 #s2-disp-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    margin-top: 35px;
+    
+}
+
+#s2-title{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #0a0d11;
 }
 
 .s2-disp{
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 212px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .s2-flavor{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    margin-top: 15px;
+    size: 18px;
+    color: #4d4d4d;
 }
 
 .lightning-img{
