@@ -1,5 +1,8 @@
 *{
     font-family: sans-serif;
+    /*border-style: solid;
+    border-color: aqua;      These 3 lines add borders to all elements for debugging
+    border-style: 1px; */
 }
 
 .blue{
@@ -33,6 +36,7 @@
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    max-width: 352px;
     
     
 }
@@ -40,11 +44,11 @@
 .nav-button{
     background-color: transparent;
     color: gray;
-    max-height: 40px;
-    width: 150px;
+    max-height: 20px;
     margin-top: 20px;
     font-size: 20px;
-    border: 0px;
+    user-select: none;
+    text-decoration: none !important;
 }
 
 .nav-button:hover{ 
@@ -53,7 +57,7 @@
 }
 
 .nav-button:active{
-    font-size: 21px;
+    transform: scale(1.05);
 }
 
 body{
@@ -126,7 +130,7 @@ body{
     display: flex;
     height: 450px;
     flex-direction: column;
-    margin-bottom: 35px;
+    margin-bottom: 100px;
 }
 
 #s2-disp-container{
@@ -169,4 +173,28 @@ body{
     border-style: solid;
     border-width: 6px;
     border-radius: 18px;
+}
+
+#sec-3{
+    margin-top: 50px;
+    display: flex;
+    background-color:#dddddd;
+    min-height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+#s3-quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    width: 800px;
+    height: fit-content;
+}
+
+#s3-author{
+    font-weight: 700;
+    font-style: normal;
+    text-align: right;
 }
